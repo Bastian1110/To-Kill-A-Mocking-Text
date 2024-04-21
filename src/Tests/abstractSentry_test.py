@@ -43,7 +43,6 @@ class TestAbstractSentry(unittest.TestCase):
             ("doc1", "test document contain multipl sentenc punctuat comma"),
             ("doc2", "anoth test document longer sentenc includ number like 123 special charact like")
         ]
-        print(preprocessed_docs)
         self.assertEqual(preprocessed_docs, expected_output)
     
     def test_preprocess_docs_empty_text(self):
@@ -79,17 +78,42 @@ class TestAbstractSentry(unittest.TestCase):
 
     def test_calculate_similarity(self):
         # Test the calculate_similarity method
+        doc1 = (
+            "doc1",
+            "A dummy test document.This document will have two sentences written by someone that may have no idea what they are actually doing."
+        )
+
+        doc2 = (
+            "doc2",
+            "This document has nothing to do with the first one. However I would like to clarify that it may still hold some similarity with the first one."
+        )
+
         doc_text = "This is a dummy test text. This a sentence written by someone that has no idea what they are doing. Hey are you still reading this sentence? Hi how are you?"
+        preprocessed_docs = self.abstract_sentry.preprocess_docs([doc1,doc2])
+        self.abstract_sentry.fit_vectorizer(preprocessed_docs)
         similarity_results = self.abstract_sentry.calculate_similarity(doc_text)
         vectors_data = list(self.abstract_sentry.database.vectors.find())
         self.assertEqual(len(similarity_results), len(vectors_data))  # Check if similarity results are returned for all stored documents
 
     def test_add_new_document(self):
         # Test the add_new_document method
+        doc1 = (
+            "doc1",
+            "A dummy test document.This document will have two sentences written by someone that may have no idea what they are actually doing."
+        )
+
+        doc2 = (
+            "doc2",
+            "This document has nothing to do with the first one. However I would like to clarify that it may still hold some similarity with the first one."
+        )
+
+        doc_text = "This is a dummy test text. This a sentence written by someone that has no idea what they are doing. Hey are you still reading this sentence? Hi how are you?"
+        preprocessed_docs = self.abstract_sentry.preprocess_docs([doc1,doc2])
+        self.abstract_sentry.fit_vectorizer(preprocessed_docs)
+ 
         doc_name = "new_doc"
         doc_text = "This is a new test document. I has two simple sentences."
         vectors_data = list(self.abstract_sentry.database.vectors.find())
-        self.abstract_sentry.fit_vectorizer([(doc_name,doc_text)])
         vectors = len(vectors_data)
         vector = self.abstract_sentry.add_new_document(doc_name, doc_text)
         vectors_data2 = list(self.abstract_sentry.database.vectors.find())
