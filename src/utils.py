@@ -1,3 +1,8 @@
+"""
+By : Harimi Manzano (@HarumiManz)
+Project : To-Kill-A-Mocking-Bird
+"""
+
 import os
 import re
 

@@ -1,3 +1,7 @@
+"""
+By : Sebastian Mora (@Bastian110)
+Project : To-Kill-A-Mocking-Bird
+"""
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 import nltk

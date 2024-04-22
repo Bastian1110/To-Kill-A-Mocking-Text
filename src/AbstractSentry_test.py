@@ -1,3 +1,8 @@
+"""
+By : Adrian Bravo (Adrian101-hnd)
+Project : To-Kill-A-Mocking-Bird
+"""
+
 import unittest
 from AbstractSentry import AbstractSentry
 from nltk.stem import PorterStemmer
