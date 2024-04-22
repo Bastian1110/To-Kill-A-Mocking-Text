@@ -156,7 +156,7 @@ class AbstractSentry:
         """
         preprocessed_doc = self.preprocess_function(doc_text)
         vector = self.vectorizer.transform([preprocessed_doc])
-        self._add_vecs_to_db([(doc_name, preprocessed_doc)], vector.toarray())
+        self._add_vecs_to_db([(doc_name, preprocessed_doc)], vector)
         return vector
     
     def evaluate_system(self, x, real_y, graphic=True, threshold=0.25):
