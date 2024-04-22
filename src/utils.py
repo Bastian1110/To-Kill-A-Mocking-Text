@@ -40,3 +40,44 @@ def read_directory_files(directory):
             except Exception as e:
                 print(f"An error occurred while reading {filename}: {e}")
     return combined_content
+
+def build_validation_dataset(directory):
+    """
+    Constructs a validation dataset from a specified directory containing text files.
+
+    This function reads text files within the given directory, processes them to clean the content, 
+    and organizes them into a dataset. It assumes that files prefixed with 'org' are originals (label 0)
+    and all others are considered fakes (label 1).
+
+    Parameters:
+    - directory (str): The path to the directory where text files are stored.
+
+    Returns:
+    - contents (list of str): A list of cleaned contents of the text files.
+    - y (list of int): A list of labels corresponding to the text files where '0' denotes an original
+      document and '1' denotes a fake document.
+
+    The function handles FileNotFoundError if a file is missing, and a general Exception for other
+    issues that may arise during file reading, logging the specific error to the console.
+
+    Example usage:
+    >>> directory_path = 'path/to/text/files'
+    >>> contents, labels = build_validation_dataset(directory_path)
+    >>> print(f'Loaded {len(contents)} documents.')
+    """
+    contents = []
+    y = []
+    for filename in os.listdir(directory):
+        if filename.endswith('.txt'):
+            file_path = os.path.join(directory, filename)
+            try:
+                with open(file_path, 'r', encoding='utf-8') as file:
+                    content = file.read()
+                    cleaned_content = clean_content(content)  # Assumes existence of a cleaning function
+                    contents.append(cleaned_content)
+                    y.append(0 if filename[:3] == "org" else 1)
+            except FileNotFoundError:
+                print(f"The file {filename} was not found.")
+            except Exception as e:
+                print(f"An error occurred while reading {filename}: {e}")
+    return contents, y
