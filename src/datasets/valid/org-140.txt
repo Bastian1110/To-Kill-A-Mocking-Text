@@ -1,0 +1,1 @@
+The upcoming Artificial Intelligence (AI) Act is the European Union’s attempt to regulate high-risk AI systems and foundation models. We give an up-to-date overview of the act’s key requirements, explain how the high-risk classification works, and highlight what matters for its operationalization.

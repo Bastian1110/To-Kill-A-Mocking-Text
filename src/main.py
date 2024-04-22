@@ -1,5 +1,5 @@
 from AbstractSentry import AbstractSentry
-from utils import read_directory_files
+from utils import read_directory_files, build_validation_dataset
 import nltk
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
@@ -22,10 +22,8 @@ def stem_and_stopwords(doc: str) -> str:
     filtered_words = [stemmer.stem(word) for word in words if word not in stop_words and word.isalnum()]
     return ' '.join(filtered_words)
 
-if __name__ == "__main__":
-    # Initialize the AbstractSentry object with MongoDB connection details
-    sentry = AbstractSentry(stem_and_stopwords, "mongodb://localhost:27017/", "TKAMT")
 
+def fit_system(sentry):
     # Read and preprocess real documents from a directory
     documents_reals = read_directory_files("./datasets/reals")
     documents_fakes = read_directory_files("./datasets/fakes")
@@ -46,3 +44,19 @@ if __name__ == "__main__":
     # Print the similarity results
     for doc in res:
         print(doc)
+
+
+def validate(sentry):
+    # Read a directory full of legit text and plagiarized text, generates a x and y dataset
+    x, y = build_validation_dataset("./datasets/valid")
+
+    # Evaluates the system acurrracy (in a classification problem mode)
+    sentry.evaluate_system(x, y)
+
+if __name__ == "__main__":
+    # Initialize the AbstractSentry object with MongoDB connection details
+    sentry = AbstractSentry(stem_and_stopwords, "mongodb://localhost:27017/", "TKAMT")
+
+    #fit_system(sentry)
+    validate(sentry)
+

@@ -1,6 +1,9 @@
 import pickle
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.metrics import confusion_matrix
+import matplotlib.pyplot as plt
+import seaborn as sns
 from pymongo import MongoClient
 import numpy as np
 
@@ -24,6 +27,7 @@ class AbstractSentry:
     _add_vecs_to_db(self, documents, vectors): Adds document vectors and their names to the database.
     store_vectors(self, documents, vectors): Stores vectors in the database, clearing previous entries.
     add_new_document(self, doc_name, doc_text): Adds a new document to the database after vectorization.
+    eva
     """
 
     def __init__(self, preprocess_function, mongo_conn_string, database_name):
@@ -150,3 +154,37 @@ class AbstractSentry:
         vector = self.vectorizer.transform([preprocessed_doc])
         self._add_vecs_to_db([(doc_name, preprocessed_doc)], vector.toarray())
         return vector
+    
+    def evaluate_system(self, x, real_y, graphic=True, threshold=0.25):
+        """
+        Evaluates the plagiarism detection system by comparing predicted labels 
+        against actual labels and optionally displaying a confusion matrix.
+
+        Parameters:
+        - x (list of str): List of document texts to classify.
+        - real_y (list of int): Actual classification labels for the documents (0=original, 1=fake).
+        - graphic (bool): Whether to display the confusion matrix as a heatmap (default is True).
+        - threshold (float): Similarity score threshold to label a document as fake (default is 0.25).
+
+        Returns:
+        - cm (ndarray): The confusion matrix array, showing the accuracy of predictions.
+
+        Example:
+        >>> documents = ["Text 1", "Text 2"]
+        >>> actual_labels = [0, 1]
+        >>> cm = system.evaluate_system(documents, actual_labels)
+        """
+        pred_y = []
+        for doc in x:
+            similarity = self.calculate_similarity(doc)[1]["similarity"]
+            pred_y.append(0 if similarity < threshold else 1)
+        cm = confusion_matrix(real_y, pred_y)
+        if graphic:
+            plt.figure(figsize=(8,6))
+            sns.heatmap(cm, annot=True, fmt="d", cmap='Purples', xticklabels=['Original', 'Fake'], yticklabels=['Original', 'Fake'])
+            plt.xlabel('Predicted Labels')
+            plt.ylabel('True Labels')
+            plt.title('Confusion Matrix')
+            plt.show()
+        return cm
+
