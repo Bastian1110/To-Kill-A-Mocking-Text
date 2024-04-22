@@ -1,3 +1,8 @@
+"""
+By : Adrian Bravo (Adrian101-hnd)
+Project : To-Kill-A-Mocking-Bird
+"""
+
 from AbstractSentry import AbstractSentry
 from utils import read_directory_files, build_validation_dataset
 import nltk
@@ -22,6 +27,9 @@ def stem_and_stopwords(doc: str) -> str:
     filtered_words = [stemmer.stem(word) for word in words if word not in stop_words and word.isalnum()]
     return ' '.join(filtered_words)
 
+def no_preprocess(doc :str) -> str:
+    return doc
+
 
 def fit_system(sentry):
     # Read and preprocess real documents from a directory
@@ -35,7 +43,7 @@ def fit_system(sentry):
     sentry.fit_vectorizer(preprocessed_docs)
 
     # Take a sample document from the fake documents dataset for testing
-    test = documents_fakes[0]
+    test = documents_reals[0]
     print("Testing document:", test[0])  # Print the name of the document being tested
 
     # Calculate the similarity of the test document against the stored real document vectors
@@ -46,17 +54,17 @@ def fit_system(sentry):
         print(doc)
 
 
-def validate(sentry):
+def validate(sentry : AbstractSentry):
     # Read a directory full of legit text and plagiarized text, generates a x and y dataset
     x, y = build_validation_dataset("./datasets/valid")
 
     # Evaluates the system acurrracy (in a classification problem mode)
-    sentry.evaluate_system(x, y)
+    sentry.evaluate_system(x, y, threshold=0.25)
 
 if __name__ == "__main__":
     # Initialize the AbstractSentry object with MongoDB connection details
-    sentry = AbstractSentry(stem_and_stopwords, "mongodb://localhost:27017/", "TKAMT")
+    sentry = AbstractSentry(no_preprocess, "mongodb://localhost:27017/", "TKAMT")
 
-    #fit_system(sentry)
+    fit_system(sentry)
     validate(sentry)
 
