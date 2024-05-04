@@ -1,0 +1,6 @@
+{
+    "text": "Power transformer protective relay should block the tripping during magnetizing inrush and rapidly operate the tripping during internal faults. The frequency environment of power system has been made more complicated and the quantity of 2nd frequency component in inrush state has been decreased because of the improvement of core steel. Then, traditional approaches will likely be maloperated in the case of magnetizing inrush with low second harmonic component and internal faults with high second harmonic component. This paper proposes a new relaying algorithm to enhance the fault detection sensitivities of conventional techniques by using a fuzzy logic approach. The proposed fuzzy-based relaying algorithm consists of flux-differential current derivative curve, harmonic restraint, and percentage differential characteristic curve. The proposed relaying was tested with relaying signals obtained from Salford EMTP simulation package and showed a fast and accurate trip operation.",
+    "label": 0,
+    "type": 7,
+    "name": "new-072"
+}

@@ -1,6 +1,6 @@
 """
 By : Adrian Bravo (Adrian101-hnd)
-Project : To-Kill-A-Mocking-Bird
+Project : To-Kill-A-Mocking-Text
 """
 
 import unittest

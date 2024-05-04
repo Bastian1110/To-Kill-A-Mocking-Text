@@ -1,0 +1,6 @@
+{
+    "text": "This paper provides an extensive review of literature concerning the utilization of machine learning (ML) algorithms within recommender systems (RS), with a specific focus on research and applications published in the first half of 2023. The primary objective is to discern emerging trends, analyze real-world implementations, and offer guidance to researchers seeking to position their work within this domain. The findings are systematically categorized across various sectors, encompassing education, healthcare, ML algorithms (with particular emphasis on auto-encoders and reinforcement learning), e-commerce, and digital journalism. The review underscores the notable improvements in recommendation accuracy, scalability, personalization, and context awareness facilitated by ML techniques. Additionally, it explores strategies for addressing challenges such as the cold start problem and data sparsity. Furthermore, the review lays the groundwork for future advancements in ML algorithms for RSs, with a special focus on their applicability within manufacturing enterprises.",
+    "label": 1,
+    "type": 5,
+    "name": "bla-083"
+}

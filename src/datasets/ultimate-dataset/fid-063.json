@@ -1,0 +1,6 @@
+{
+    "text": "Artificial neural networks have emerged as viable models for simulating human language processing, although they face criticism for their extensive training data requirements compared to human language acquisition. This study adopts two methods to assess how the amount of training data impacts GPT-2 models' ability to capture human fMRI responses to sentences. Initially, GPT-2 models trained on datasets of varying sizes (1 million to 1 billion words) are evaluated against an fMRI benchmark, with the 100-million-word model considered developmentally plausible. Additionally, a GPT-2 model trained on a 9-billion-token dataset is assessed for state-of-the-art next-word prediction on the human benchmark at different training stages. Results show that models trained on a developmentally plausible data size achieve nearly optimal performance in capturing fMRI responses to sentences, with lower perplexity correlating with stronger alignment with human data. This suggests that models achieving high next-word prediction performance also develop predictive representations of human fMRI responses, highlighting the importance of adequate training data (~100 million words).",
+    "label": 1,
+    "type": 4,
+    "name": "fid-063"
+}

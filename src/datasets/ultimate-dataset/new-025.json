@@ -1,0 +1,6 @@
+{
+    "text": "Since science and technology have been progressing steadily in recent years, deep learning's potential applications have expanded greatly. From unlocking the screen of a phone with a human face to driverless technology, which has emerged in recent years. Facial recognition is proving to be a boon to life. Among various deep learning algorithms, the appearance of convolutional neural network (CNN)has made unprecedented progress in image recognition. In this paper, the basic principles of convolutional neural networks are explained, and the most important concepts are introduced. The convolutional neural network is used for experiments. The input layer, convolution layer, pooling layer, fully connected layer, and output layer are the nine layers that make up the traditional and complete convolutional neural network model, which is used as the experimental foundation. LFW dataset is used for training, and the experimental results are given. At the end of the paper, the accuracy and loss functions are analyzed and the accurate results of facial recognition are achieved.",
+    "label": 0,
+    "type": 7,
+    "name": "new-025"
+}

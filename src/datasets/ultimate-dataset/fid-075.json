@@ -1,0 +1,6 @@
+{
+    "text": "Originally, a fuzzy logic controller (FLC) was employed to examine voltage stability within a PV-based DC microgrid. The microgrid comprises several photovoltaic (PV) modules, a DC-DC converter, and various loads. As intermittent PV power usage became prevalent, achieving voltage stability became increasingly challenging for DC microgrids. This study introduced an FLC-based voltage control technique, utilizing input factors such as PV output power, DC-DC converter duty cycle, and load current to determine the optimal strategy for maintaining voltage stability. The performance of the FLC was evaluated through simulation, emphasizing its resilience to parameter fluctuations and uncertainties. Simulation outcomes showcased the efficacy of the proposed FLC-based control approach in sustaining voltage stability across diverse operational scenarios, encompassing fluctuations in solar irradiance and load variations. Furthermore, comparative analysis revealed the superior performance of the FLC compared to alternative control methods.",
+    "label": 1,
+    "type": 2,
+    "name": "fid-075"
+}

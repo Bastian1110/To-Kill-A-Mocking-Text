@@ -1,0 +1,6 @@
+{
+    "text": "Face Recognition is an active topic among Machine Learning Researchers for two decades owing to its increasing demand in security monitoring applications. The present Techniques while being working has some constraints. The challenges emerge with the orientation, quality, and expression, variations in lightning, or facial occlusions, which has a direct impact on the facial captures using video-based surveillance. This results in performance and accuracy issues. The current surveillance applications require more computational complexity with less accuracy and performance. The proposed video surveillance system overcomes these limitations of existing systems and provides maximum effective security with minimum computational complexity. The proposed Video security monitoring system provides a complete face localization, detection, and recognition. The draw out facial image data is compared with facial dataset images. The facial data is obtained from the video dataset accessed from the real environment. The face image is authenticated if a match is found and is declared unauthenticated otherwise. The security alarm after the unauthenticated alerts the security personal for further action. Hence, the proposed system is more non-evasive, accurate and reliable.",
+    "label": 0,
+    "type": 7,
+    "name": "new-029"
+}

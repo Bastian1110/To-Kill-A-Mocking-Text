@@ -1,0 +1,6 @@
+{
+    "text": "This paper presents a study that utilizes artificial intelligence (AI) and computer vision algorithms to detect human emotions in video content during user interactions with various visual stimuli. The research aims to develop software capable of emotion detection by leveraging AI algorithms and image processing pipelines to identify users' facial expressions. The process involves evaluating users through images and implementing computer vision algorithms aligned with psychological theories that define emotions and their recognizable features. The study demonstrates the feasibility of emotion recognition using convolutional neural networks (CNNs) and software development and training focused on facial expressions. While the results highlight successful emotion identification, further training is required for scenarios involving a wider range of images, and additional algorithms are needed to differentiate closely related emotional patterns. The discussion and conclusions underscore the potential of AI and computer vision algorithms in emotion detection, offering insights into software development, ongoing training, and the evolving landscape of emotion recognition technology.",
+    "label": 1,
+    "type": 0,
+    "name": "fid-021"
+}

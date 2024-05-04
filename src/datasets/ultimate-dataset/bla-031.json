@@ -1,0 +1,6 @@
+{
+    "text": "Autonomous vehicles (AVs) are poised to revolutionize transportation systems, with decision-making constituting a pivotal component of high-level automated driving. While rule-based methods have traditionally been employed, the emergence of data-driven decision-making approaches has garnered considerable attention, particularly for addressing complex scenarios. The quality and diversity of datasets utilized profoundly impact decision-making performance, necessitating a comprehensive understanding of available datasets. Driving data can be categorized into vehicle-, environment-, and driver-related data, each offering unique insights. This study undertakes a comparative analysis of state-of-the-art datasets across these categories, detailing their attributes such as sensor usage, annotation, and driving scenarios. Furthermore, potential applications of these datasets in various facets of AV decision-making are discussed, aiding researchers in selecting suitable datasets for their investigations. Finally, the future trajectory of AV dataset development is outlined, offering insights into forthcoming trends in this domain.",
+    "label": 1,
+    "type": 5,
+    "name": "bla-031"
+}

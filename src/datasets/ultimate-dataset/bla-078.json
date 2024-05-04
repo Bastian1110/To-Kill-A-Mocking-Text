@@ -1,0 +1,6 @@
+{
+    "text": "This article delves into addressing the predominant challenges encountered in induction machine control to attain enhanced dynamic performance. Traditional methods like direct torque control and indirect control with flux orientation are plagued by issues such as current harmonics, torque ripples, flux fluctuations, and prolonged rise time. To overcome these limitations, we conduct a comparative analysis between conventional approaches and one employing fuzzy logic. Simulation results underscore the superiority of the fuzzy logic-based direct torque control method, showcasing its efficacy in delivering precise and swift responses devoid of overshooting while mitigating torque and flux fluctuations even at low switching frequencies. The observed enhancements in dynamic performance are poised to significantly bolster operational efficiency and reliability across various industrial applications.",
+    "label": 1,
+    "type": 5,
+    "name": "bla-078"
+}

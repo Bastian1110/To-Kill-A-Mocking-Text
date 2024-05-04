@@ -5,6 +5,7 @@ Project : To-Kill-A-Mocking-Bird
 
 import os
 import re
+import json
 
 def clean_content(content):
     """
@@ -86,3 +87,18 @@ def build_validation_dataset(directory):
             except Exception as e:
                 print(f"An error occurred while reading {filename}: {e}")
     return contents, y
+
+
+def read_ultimate_dataset(directory, attributes, filters=None):
+    json_data = []
+    for file_path in os.listdir(directory):
+        if file_path.endswith('.json'):
+            with open(os.path.join(directory, file_path)) as f:
+                data = json.load(f)
+                if filters:
+                    pass_filter = all(data[attr] in values for attr, values in filters.items())
+                    if not pass_filter:
+                        continue
+                filtered_data = {attr: data[attr] for attr in attributes if attr in data}
+                json_data.append(filtered_data)
+    return json_data

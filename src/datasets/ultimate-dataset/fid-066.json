@@ -1,0 +1,6 @@
+{
+    "text": "This paper explores recent developments in artificial intelligence (AI) and the heightened public interest surrounding this field. It specifically focuses on Eliezer Yudkowsky, a prominent figure in AI alignment, and his efforts to bridge the gap between public perceptions and rationalist perspectives on AI technology. Central to the discussion is his proposed approach to AI, as outlined in his unpublished paper AGI Ruin: A List of Lethalities. The paper aims to define intelligence and apply this definition to contemporary AI progress, examining its implications. While acknowledging the intelligence exhibited by modern AI systems to a certain extent, the paper argues that AI without human-defined goals does not inherently pose existential threats. This argument challenges prevailing ideas about AI alignment and prompts scrutiny of Nick Bostrom's Orthogonality Thesis. Additionally, the paper explores the concept of creating artificial life through modular assembly of mind functions.",
+    "label": 1,
+    "type": 4,
+    "name": "fid-066"
+}

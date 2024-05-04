@@ -1,0 +1,6 @@
+{
+    "text": "Artificial intelligence (AI) has revolutionized the analysis of network news, especially in processing vast amounts of information to extract key insights. Named entity recognition (NER) technology within AI has become instrumental in classifying crucial details like locations, dates, and entities within textual data. This study combines NER with deep learning techniques to develop an advanced model for automatically annotating Chinese entity triggers and achieving high accuracy with minimal training data sets. By training sentence and trigger vectors through a trigger-matching network, this approach enhances subsequent sequence annotation models, leading to superior performance compared to traditional models. The proposed method also demonstrates effectiveness in identifying neologisms in web news, offering customized sentiment analysis capabilities and showcasing the potential of AI in enhancing sentiment detection within network news analysis.",
+    "label": 0,
+    "type": 7,
+    "name": "new-058"
+}

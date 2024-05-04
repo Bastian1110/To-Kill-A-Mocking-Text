@@ -1,0 +1,6 @@
+{
+    "text": "Monte Carlo Tree Search (MCTS) emerges as a formidable empirical search algorithm for agent decision-making, particularly when augmented by Deep Learning (DL), revolutionizing the mastery of board games once deemed insurmountable. However, its prowess appears somewhat diminished in the realm of real-time video games, where the critical factor of simulation time limit for exploration poses a challenge. These games, primarily designed for human users, demand substantial resources for simulation. In this paper, we introduce a novel approach termed surrogate-assisted MCTS, tailored specifically for commercial real-time video games, by approximating gameplay outcomes with a deep-learning-based surrogate model. Our primary contribution lies in devising a modified MCTS framework suited for real-time commercial video games. Unlike non-commercial counterparts, commercial video games entail significantly more intricate and dynamic gameplay to cater to consumer preferences, a terrain largely unexplored by prior research. We validate our method's performance through comparative experiments with other algorithms, including traditional MCTS, within the context of a commercial real-time video game environment.",
+    "label": 1,
+    "type": 3,
+    "name": "fid-092"
+}

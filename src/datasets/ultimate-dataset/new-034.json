@@ -1,0 +1,6 @@
+{
+    "text": "Artificial Intelligence (AI) is changing every technology we are used to deal with. Autonomy has long been a sought-after goal in vehicles, and now more than ever we are very close to that goal. Big auto manufacturers as well are investing billions of dollars to produce Autonomous Vehicles (AVs). This new technology has the potential to provide more safety for passengers, less crowded roads, congestion alleviation, optimized traffic, fuel-saving, less pollution as well as enhanced travel experience among other benefits. But this new paradigm shift comes with newly introduced privacy issues and security concerns. Vehicles before were dumb mechanical devices, now they are becoming smart, computerized, and connected. They collect huge troves of information, which needs to be protected from breaches. In this work, we investigate security challenges and privacy concerns in AVs. We examine different attacks launched in a layer-based approach. We conceptualize the architecture of AVs in a four-layered model. Then, we survey security and privacy attacks and some of the most promising countermeasures to tackle them. Our goal is to shed light on the open research challenges in the area of AVs as well as offer directions for future research.",
+    "label": 0,
+    "type": 7,
+    "name": "new-034"
+}

@@ -1,0 +1,6 @@
+{
+    "text": "This paper presents an experience using an Artificial Life competitive game that simulates an artificial life environment for unstructured and informal Artificial Intelligence (AI) teaching to computer science engineering students. The game involves a simulated Petri dish where two colonies of microorganisms, represented as software agents, compete for survival. Participants are tasked with implementing survival strategies for their agents, including combat tactics and basic reproduction rules, to dominate the artificial environment. The technical details of the competition and the artificial life model are outlined, along with a discussion on the pedagogical experience gained during the contest's development and the resulting learning outcomes, which sparked students' enthusiasm and facilitated the development of mental models related to AI algorithms.",
+    "label": 1,
+    "type": 5,
+    "name": "bla-070"
+}

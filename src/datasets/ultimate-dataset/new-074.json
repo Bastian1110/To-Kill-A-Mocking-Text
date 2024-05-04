@@ -1,0 +1,6 @@
+{
+    "text": "This paper presents an intelligent approach based on the fuzzy logic concept, to optimally find out the maximum power point (MPP) to extract maximum power from a photovoltaic (PV) array. The fuzzy logic-based MPP tracking (MPPT) is tested and analyzed through MATLAB/Simulink and hardware-based PV modules. To justify the feasibility of realtime application of the approach, a hardware setup is built using Arduino mega 2560 embedded board, MinGW-w64 simulator, and Simulink support package for Arduino Hardware in MATLAB/Simulink 2020. To execute the real-time conditions, both the temperature (T) and irradiance (G) variations are considered in different test cases. The results indicate the high efficacy and feasibility of the approach for real-time application.",
+    "label": 0,
+    "type": 7,
+    "name": "new-074"
+}

@@ -1,0 +1,6 @@
+{
+    "text": "The domain of artificial intelligence (AI) technology encompasses a broad spectrum of applications, with numerous individual and collaborative AI-based technologies available. Among these technologies, computer vision holds significant importance. Computer vision is closely intertwined with other technologies such as machine learning (ML), deep learning (DL), and artificial neural networks. It finds applications across various domains, with healthcare emerging as a prominent area of focus in recent years. In healthcare, a multitude of algorithms rooted in the aforementioned technologies are employed to extract meaningful insights from medical images. This chapter provides an overview of the concept of computer vision, its diverse fields of application, and its specific application within the realm of healthcare. Additionally, it delves into a practical example of tumor detection utilizing computer vision within the MATLAB environment.",
+    "label": 1,
+    "type": 5,
+    "name": "bla-014"
+}

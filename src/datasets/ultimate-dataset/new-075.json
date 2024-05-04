@@ -1,0 +1,6 @@
+{
+    "text": "In this paper, the fuzzy logic control for maximum power point tracking (MPPT) of a solar photovoltaic (PV) module in water pumping application is presented. A PV system including a solar module, a DC/DC boost converter, a fuzzy MPP tracker and a resistive load is modelled and simulated for various atmospheric conditions. The P-V and I-V characteristics are first obtained for various values of solar irradiation and temperature. Also, the increased efficiency of the photovoltaic system using MPPT is computed and plotted. The fuzzy control method is compared with the perturb and observe (P&O) method in one hand and with an improved P&O technique using artificial neural network (ANN) in the other. The fuzzy MPP tracker is then applied to the water pumping system composed of a solar panel, DC/DC boost converter, DC/AC inverter, induction motor and centrifugal pump.",
+    "label": 0,
+    "type": 7,
+    "name": "new-075"
+}

@@ -1,0 +1,6 @@
+{
+    "text": "This article delves into the origins of technological disruptions within electrical systems, shedding light on several inherent drawbacks concerning the safeguarding and automated components within these systems. It provides compelling arguments for the declining reliability of relay protection systems attributed to the shift from analog to digital forms of protection. Drawing from examined instances, it advocates for the integration of fuzzy logic within protection mechanisms, emphasizing its efficacy in identifying various short circuit types within electrical systems. Common damages are scrutinized, accompanied by the outcomes of simulating an electrical system featuring transformer coupling, wherein diverse asymmetric short circuits were simulated. The fluctuation patterns of symmetrical components in short-circuit currents—forward, reverse, and zero sequences—are elucidated. Additionally, rules are devised for distinguishing asymmetric short circuit types, alongside the formulation of an algorithm utilizing fuzzy logic elements for protection and automation processes. The proposed algorithm promises expedited damage identification and activation of protective measures.",
+    "label": 1,
+    "type": 4,
+    "name": "fid-072"
+}

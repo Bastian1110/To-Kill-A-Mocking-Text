@@ -1,0 +1,6 @@
+{
+    "text": "This paper explores English text emotion expression and information communication by categorizing them based on the human emotion-value relationship and summarizing their characteristics. It then proposes an analysis model using the BiLSTM neural network, leveraging artificial intelligence technology. The emotional features of English text are encoded and extracted using the BiLSTM network, addressing the loss of emotional features. Data is collected from a Chinese English module under a Chinese university's MOOC, and the model is evaluated based on performance metrics. Experimental analysis demonstrates that the BiLSTM-based neural network outperforms CNN, LSTM, and T-LSTM in text emotion expression and information conveyance, especially on English datasets.",
+    "label": 1,
+    "type": 5,
+    "name": "bla-059"
+}

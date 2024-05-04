@@ -1,0 +1,6 @@
+{
+    "text": "Recent advancements in artificial intelligence (AI) and machine learning (ML) have demonstrated significant progress, especially in domains such as image recognition, natural language processing, language translation, textual analysis, and autonomous learning. These areas historically faced challenges, leading to the perception of them being inseparably linked to human intelligence. However, these advancements in commercial applications have primarily excelled in tasks requiring single-task performance, where some degree of imperfection and occasional errors can be accommodated. In contrast, the field of anesthesiology demands high reliability and involves a continuous cycle of interpretation, action, and response rather than relying on singular cognitive acts. This review explores the essence of artificial intelligence and machine learning for practicing anesthesiologists, elucidating how decision-making processes can emerge from simple equations. Clinical scenarios are presented to demonstrate how machine learning could contribute to addressing them, potentially ushering anesthesiology into an era of machine-assisted discovery.",
+    "label": 1,
+    "type": 0,
+    "name": "fid-106"
+}

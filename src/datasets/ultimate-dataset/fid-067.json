@@ -1,0 +1,6 @@
+{
+    "text": "Living organisms demonstrate remarkable capabilities due to their embodiment of autonomy through body morphology, material functionalities, and mechanical adaptability. Soft robotics has made strides in designing physically intelligent bodies, yet integrating information-processing capabilities remains a challenge. This integration is crucial for overcoming perception and control limitations in current soft robot designs. Achieving untethered autonomy requires advancements in materials, fabrication methods, and control strategies. A novel approach suggests focusing on tasks to guide material and information constraints in soft robot design, bypassing limitations posed by control strategies. This task-centric design paradigm facilitates the exploitation of material and information processing properties in soft matter, enabling the creation of task-capable agents. The scale-dependent nature of solutions is emphasized, along with insights into emerging research opportunities for achieving autonomy in soft robots across various sizes.",
+    "label": 1,
+    "type": 4,
+    "name": "fid-067"
+}

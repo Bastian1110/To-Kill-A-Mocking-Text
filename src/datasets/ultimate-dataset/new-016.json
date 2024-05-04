@@ -1,0 +1,6 @@
+{
+    "text": "A robot-vision system applied for detecting small and slow moving objects is introduced. It utilizes Blob-analysis method to recognize the center of objects with arbitrary form and the angle between axis and arbitrary hypotenuse of objects. An intelligent camera with TMS320C64×series DSP is adopted as the hardware platform of the system. The VC intelligent vidicon is used to fulfill the collection and quantification of scene picture data, and an embedded -operating system and developing platform are involved to implement the corresponding target-localization program. The simulating experiments indicated that the system can meet the requirements of system design, the target recognition rate can reach 100%, and the localization relative error is less than 10%. The system can be widely used to the different machine vision fields in industry with different application programs, especially in picture detection, superficial examination, automotive industry examination and so on.",
+    "label": 0,
+    "type": 7,
+    "name": "new-016"
+}

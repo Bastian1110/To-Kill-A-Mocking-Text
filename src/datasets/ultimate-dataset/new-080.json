@@ -1,0 +1,6 @@
+{
+    "text": "Due to their powerful optimization property, genetic algorithms (GAs) are currently being investigated for the development of adaptive or self-tuning fuzzy logic control systems. This paper presents a neuro-fuzzy logic controller (NFLC) where all of its parameters can be tuned simultaneously by GA. The structure of the controller is based on the radial basis function neural network (RBF) with Gaussian membership functions. The NFLC tuned by GA can somewhat eliminate laborious design steps such as manual tuning of the membership functions and selection of the fuzzy rules. The GA implementation incorporates dynamic crossover and mutation probabilistic rates for faster convergence. A flexible position coding strategy of the NFLC parameters is also implemented to obtain near optimal solutions. The performance of the proposed controller is compared with a conventional fuzzy controller and a PID controller tuned by GA. Simulation results show that the proposed controller offers encouraging advantages and has better performance.",
+    "label": 0,
+    "type": 7,
+    "name": "new-080"
+}

@@ -1,0 +1,6 @@
+{
+    "text": "The utilization of fuzzy logic has emerged as a valuable approach for optimizing power flow solutions, especially within deregulated power systems. By employing fuzzy logic controls, it becomes possible to determine the optimal placement of distribution generators (DGs), thereby identifying reliability indices through optimal power flow solutions and fuzzy logic controllers to maintain system feasibility. In the context of deregulated power systems, the strategic positioning of DG units becomes pivotal for reducing power loss and enhancing overall system performance by managing fluctuations effectively. It is essential to employ optimal power flow algorithms to pinpoint areas of weakness, particularly within transmission companies, in deregulated power systems. Both transmission and distribution networks require suitable adjustments to address congestion issues within these companies. The aggregator's role is crucial in evaluating system performance using data acquired from distribution and transmission companies in deregulated power systems.",
+    "label": 1,
+    "type": 4,
+    "name": "fid-071"
+}

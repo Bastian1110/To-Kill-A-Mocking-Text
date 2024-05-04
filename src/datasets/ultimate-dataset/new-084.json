@@ -1,0 +1,6 @@
+{
+    "text": "Among other conceptualizations, smart cities have been defined as functional urban areas articulated by the use of Information and Communication Technologies (ICT) and modern infrastructures to face city problems in efficient and sustainable ways. Within ICT, recommender systems are strong tools that filter relevant information, upgrading the relations between stakeholders in the polity and civil society, and assisting in decision making tasks through technological platforms. There are scientific articles covering recommendation approaches in smart city applications, and there are recommendation solutions implemented in real world smart city initiatives. However, to the best of our knowledge, there is not a comprehensive review of the state of the art on recommender systems for smart cities. For this reason, in this paper we present a taxonomy of smart city features, dimensions, actions and goals, and, according to these variables, we survey the existing literature on recommender systems. As a result of our survey, we do not only identify and analyze main research trends, but also show current opportunities and challenges where personalized recommendations could be exploited as solutions for citizens, firms and public administrations.",
+    "label": 0,
+    "type": 7,
+    "name": "new-084"
+}

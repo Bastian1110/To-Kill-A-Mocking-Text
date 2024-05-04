@@ -1,0 +1,6 @@
+{
+    "text": "Video games have recently garnered significant attention from the research and academic community, particularly in the exploration and experimentation of Artificial General Intelligence (AGI). Over the past few years, AGI experimentation platforms have emerged, facilitating the visual analysis and study of various pre-defined AI agents' behaviors. This work introduces a groundbreaking game engine named GAGI, designed to function as an AGI experimentation platform. GAGI, functioning as a game engine, is equipped to develop and construct innovative 2D and 3D video games utilizing the C++ programming language. Additionally, GAGI offers users a distinctive environment for simulating and examining AI agents within the game environment. Users can deploy multiple AI agents and interact with them in real-time, enhancing comprehension of their interactions and behaviors. The software's features are juxtaposed with those of widely-used game engines in both the video game industry and research community, showcasing superior design capabilities and AI support. Furthermore, GAGI enables experiment reproduction, presenting numerous possibilities for the research community.",
+    "label": 1,
+    "type": 2,
+    "name": "fid-091"
+}

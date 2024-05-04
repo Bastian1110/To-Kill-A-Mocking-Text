@@ -1,0 +1,6 @@
+{
+    "text": "Dynamic systems characterized by random perturbations pose significant challenges to control processes, necessitating the application of modern intelligent technology to synthesize effective control systems. This article addresses the synthesis of automatic control systems for dynamic objects using intelligent control theory. Specifically, a neural network based on radial-basis functions is employed for neuro-fuzzy approximation of the control system at discrete intervals, facilitating real-time adjustment of regulator parameters. The radial basis function is adept at approximating functions defined in implicit pattern sets. Parameter configuration of the neuro-fuzzy regulator is achieved using a genetic algorithm, which ensures efficient computation and determination of optimal regulator parameters represented as a vector, suitable for multidimensional objects. The genetic algorithm is employed to ascertain the optimal tuning parameters of the neuro-fuzzy regulator, characterized by high convergence and the ability to identify global extrema. The efficacy of the neuro-fuzzy regulator lies in its capability to ensure quality control of dynamic objects amidst random perturbations and input data uncertainty.",
+    "label": 1,
+    "type": 5,
+    "name": "bla-080"
+}

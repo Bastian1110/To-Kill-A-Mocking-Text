@@ -1,0 +1,6 @@
+{
+    "text": "This paper introduces the concept of Self-Reproduction from Artificial Life into computer animation, specifically focusing on the creation of a Self-Reproduction model for Artificial Fish using gene control. The model defines the contents of the fish's chromosome based on its phenotype and establishes heredity rules. Within a virtual marine environment controlled by the gene model and rules, Artificial Fish can reproduce and grow, exhibiting predefined and nondeterminate behaviors. Additionally, cognitive models based on Artificial Intelligence are developed to control the fish's behaviors at a higher level. A simulation program is then designed and implemented to integrate these models, aiming to enhance the efficiency and automation of artificial fish animation.",
+    "label": 1,
+    "type": 5,
+    "name": "bla-068"
+}

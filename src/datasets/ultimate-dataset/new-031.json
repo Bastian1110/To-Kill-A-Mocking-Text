@@ -1,0 +1,6 @@
+{
+    "text": "The state-of-the-art decision and planning approaches for autonomous vehicles have moved away from manually designed systems, instead focusing on the utilisation of large-scale datasets of expert demonstration via Imitation Learning (IL). In this paper, we present a comprehensive review of IL approaches, primarily for the paradigm of end-to-end based systems in autonomous vehicles. We classify the literature into three distinct categories: 1) Behavioural Cloning (BC), 2) Direct Policy Learning (DPL) and 3) Inverse Reinforcement Learning (IRL). For each of these categories, the current state-of-the-art literature is comprehensively reviewed and summarised, with future directions of research identified to facilitate the development of imitation learning based systems for end-to-end autonomous vehicles. Due to the data-intensive nature of deep learning techniques, currently available datasets and simulators for end-to-end autonomous driving are also reviewed.",
+    "label": 1,
+    "type": 7,
+    "name": "new-031"
+}

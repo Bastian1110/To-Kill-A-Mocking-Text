@@ -1,0 +1,6 @@
+{
+    "text": "While fuzzy inference systems (FISs) have been in development for many years, tackling high-dimensional problems with them remains a significant challenge. Typically, the product and minimum operators are the go-to T-norms for computing firing strengths, with the former being favored due to its differentiability. However, the product T-norm encounters a numeric underflow issue in high-dimensional scenarios. This paper focuses on resolving this issue in designing high-dimensional FISs (HDFISs). Introducing HDFIS-prod, we devise a solution to evade the numeric underflow problem by incorporating an adaptive dimension-dependent membership function (DMF). Additionally, for the minimum T-norm, an empirical observation guides the development of a mechanism capable of handling super high-dimensional problems, resulting in another HDFIS named HDFIS-min. Through experimentation on 18 datasets with feature dimensions ranging from 1024 to 120450, both HDFIS-prod and HDFIS-min showcase competitive performance in managing high-dimensional datasets.",
+    "label": 1,
+    "type": 0,
+    "name": "fid-077"
+}

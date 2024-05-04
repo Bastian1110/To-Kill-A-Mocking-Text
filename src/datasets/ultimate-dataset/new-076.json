@@ -1,0 +1,6 @@
+{
+    "text": "This article studies the fault tolerant tracking problem of time-varying formation for nonholonomic multirobot systems. Uncertain nonlinear dynamics are approximated by employing fuzzy logic systems (FLSs), and based on the adaptive backstepping recursive procedure and dynamic surface technology, a fuzzy adaptive formation tracking control scheme is developed. It is notable for formation to achieve collision avoidance and connectivity maintenance, so the prescribed performance methodology is introduced to solve the constrained range problem of distance and angle. Meanwhile, in order to compensate the effect from the infinite number of uncertain actuator failures, the robots can maintain interacting with their leader at the moment of actuator faults, and also uninterruptedly track the time-varying referenced trajectory from the leader, a novel decentralized adaptive fault tolerant control (AFTC) strategy is further proposed for time-varying formation and guarantees all signals are semi-global uniformly ultimately bounded (SGUUB). Finally, the effectiveness of AFTC strategy is illustrated perfectly for nonholonomic multirobot systems.",
+    "label": 0,
+    "type": 7,
+    "name": "new-076"
+}

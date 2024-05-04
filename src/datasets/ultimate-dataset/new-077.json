@@ -1,0 +1,6 @@
+{
+    "text": "This paper investigates the finite‐time formation tracking control problem for nonholonomic multirobot systems with inputs quantization. The fuzzy logic systems (FLSs) and adaptive method are introduced to approximate unknown nonlinear functions and parameters. Multirobot needs to keep safe and effective communicating range, the barrier function and prescribed performance method are employed to ensure collision avoidance and connectivity maintenance. Then, in order to make each robot more precisely and quickly track referenced leader's trajectory and consider the finite channel bandwidth in practical applications, the travel range of robots can be maintained at more secure region and formation can operate normally within the given bandwidth. By combining the command filter and finite‐time theory, a novel decentralized finite‐time formation asymptotic tracking (FTFAT) control strategy is further proposed based on inputs quantization technology, it guarantees that all signals are bounded and the formation tracking errors asymptotically converge to zero in finite‐time. Finally, the practicability of FTFAT strategy is demonstrated absolutely for nonholonomic multirobot systems.",
+    "label": 0,
+    "type": 7,
+    "name": "new-077"
+}

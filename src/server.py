@@ -31,7 +31,8 @@ def compare_with_database():
     try:
         document = request.get_json()["text"]
         result = sentry.calculate_similarity(document)
-        return jsonify({"message" : "everything okay!", "result" : result}), 200
+        plagiarized = 1 if result[0]["similarity"] > 0.25 else 0
+        return jsonify({"message" : "everything okay!", "results" : result, "plagiarized" : plagiarized}), 200
     except Exception as error:
         return jsonify({"message" : "something went wrong"}), 401
     

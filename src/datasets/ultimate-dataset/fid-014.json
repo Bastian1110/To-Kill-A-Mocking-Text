@@ -1,0 +1,6 @@
+{
+    "text": "The sphere of artificial intelligence (AI) technology is quite wide. Many individual and collaborative AI-based technologies are available. Computer vision technology is one of them. Computer vision is also related to other technologies: Machine learning (ML), deep learning (DL), artificial neural networks, etc. Computer vision finds application in many different areas. One of the areas where it has been widely applied in recent times is healthcare. In healthcare, various algorithms in the aforementioned technologies are utilized to obtain meaningful information from medical images. This chapter reviews the concept of computer vision, its fields of application, and its application in healthcare. Additionally, the example of tumor detection by computer vision in a MATLAB environment is considered.",
+    "label": 1,
+    "type": 3,
+    "name": "fid-014"
+}

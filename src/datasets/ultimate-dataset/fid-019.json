@@ -1,0 +1,6 @@
+{
+    "text": "An autonomous vehicle represents a typical high-tech comprehensive application, encompassing functions such as scene perception, optimization calculation, and multi-level assisted driving. It utilizes a range of technologies including computer vision, sensors, information fusion, information communication, high-performance computing, artificial intelligence, and automatic control. Among these technologies, computer vision serves as a primary means of data processing and is indispensable in autonomous driving systems. Furthermore, it heralds revolutionary changes in the future transportation landscape. Image processing and computer vision play pivotal roles in enabling vehicles to perceive and comprehend the surrounding environment, facilitating intelligent decision-making and control. Consequently, this paper elaborates on image processing technology in autonomous driving, covering aspects such as camera and sensor technology, image acquisition and preprocessing, as well as feature extraction and object detection. It discusses the application of computer vision algorithms in autonomous driving, emphasizing the significance of research in lane keeping and recognition, obstacle detection and avoidance, as well as traffic signal and sign recognition.",
+    "label": 1,
+    "type": 3,
+    "name": "fid-019"
+}

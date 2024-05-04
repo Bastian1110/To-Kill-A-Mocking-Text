@@ -1,0 +1,6 @@
+{
+    "text": "Facial identification remains a firmly established and popular domain within Computer Vision, particularly with the emergence of deep learning techniques and datasets. Deep facial identification has shown remarkable advancements and is extensively utilized in real-world scenarios. A comprehensive facial identification system comprises three primary elements: facial detection, orientation, and representation. This system identifies faces, aligns them to a standardized view, and extracts features for identification using advanced convolutional neural networks. This article offers an in-depth exploration of the most recent progress in these domains, illustrating how deep learning has significantly bolstered their capabilities. Object recognition in machine vision poses a significant challenge necessitating substantial enhancements. While image classification accuracy is approaching 2.25%, surpassing human performance, object recognition algorithms are still in nascent stages. Present algorithms achieve only a 40.8 MAPS on contemporary objects, underscoring the critical importance of meticulous dataset selection for optimal outcomes.",
+    "label": 1,
+    "type": 0,
+    "name": "fid-025"
+}

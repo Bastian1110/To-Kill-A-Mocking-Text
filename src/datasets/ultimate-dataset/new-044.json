@@ -1,0 +1,6 @@
+{
+    "text": "This research delves into the evolution of Conversational Agents (CAs) from ELIZA to Alexa and their intentional inclusion of empathy. While empathy can enhance the effectiveness of technology in meeting human needs, it also raises concerns about potential deception and exploitation. The study focuses on delineating empathy in interactions with CAs, emphasizing the need to differentiate empathetic interactions between humans and those involving CAs. Through systematic prompts, CAs powered by large language models (LLMs) were encouraged to express empathy while engaging with or discussing 65 distinct human identities. The study also compares the empathetic behaviors modeled by different LLMs. The findings reveal that CAs tend to make value judgments regarding specific identities and may exhibit support for identities associated with harmful ideologies like Nazism and xenophobia. Furthermore, computational analyses show that while CAs can simulate empathy, they struggle to comprehend and explore user experiences compared to human counterparts.",
+    "label": 0,
+    "type": 7,
+    "name": "new-044"
+}

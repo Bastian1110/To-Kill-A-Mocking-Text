@@ -1,0 +1,6 @@
+{
+    "text": "The integration of empathy into healthcare chatbots is seen as a promising avenue to infuse them with human warmth. However, there are notable gaps in current research regarding the multifaceted nature of empathy, leading to uncertainties about how artificial empathy is perceived in comparison to interpersonal empathy. This paper suggests that implementing experiential empathy expressions could have unintended negative consequences, potentially leading to perceptions of inauthenticity. Instead, it proposes that providing instrumental support could offer a more effective way to model artificial empathy, aligning better with the structural aspects of chatbots. Through two experimental studies using healthcare chatbots, this paper explores the impact of empathetic, sympathetic, and behavioral-empathetic responses compared to non-empathetic ones on perceived warmth, authenticity, trust, and usage intentions. The findings indicate that any form of empathy enhances perceived warmth, trust, and usage intentions, although empathetic and sympathetic responses may reduce perceived authenticity. Additionally, the study introduces the concept of 'perceived authenticity' and discusses how human-like attributes can sometimes create a sense of inauthenticity in interactions with chatbots.",
+    "label": 1,
+    "type": 3,
+    "name": "fid-050"
+}

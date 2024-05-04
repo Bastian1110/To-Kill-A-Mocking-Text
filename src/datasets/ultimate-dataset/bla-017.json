@@ -1,0 +1,6 @@
+{
+    "text": "Contemporary smart vehicles are equipped with a variety of foundational models rooted in Artificial Intelligence (AI). These models are specifically engineered for intelligent sensing, enabling them to recognize familiar object categories even in unfamiliar or analogous situations. However, a persistent challenge faced by these foundational models lies in accurately detecting all object categories across a wide range of scenarios. This correspondence seeks to broaden the scope of research in intelligent sensing for smart vehicles. Initially, we discuss the prevalent foundational models and the essential intelligence required for intelligent sensing in smart vehicles. Subsequently, we introduce the Sora-based Parallel Vision approach, which aims to enhance the foundational models of intelligent sensing by progressing from rudimentary intelligence (1.0) to advanced intelligence (2.0) and ultimately generalized intelligence (3.0). Several illustrative case studies are presented to showcase the potential applications of Sora-based Parallel Vision, along with future research directions.",
+    "label": 1,
+    "type": 5,
+    "name": "bla-017"
+}

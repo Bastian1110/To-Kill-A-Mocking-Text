@@ -1,0 +1,6 @@
+{
+    "text": "The use of chatbots and interactive software agents in health and well-being applications has seen a notable rise, particularly in facilitating interpersonal conversations for coaching, comfort, and behavior-change interventions. This necessitates a thorough examination of these agents' empathic capabilities, for which there is currently a lack of standardized tools. To address this gap, a precise definition of empathy is essential. Drawing from a systematic literature review and qualitative analysis of recent approaches to empathy in health and well-being interactive agents, a formal ontology of empathy is constructed. This formal definition is put to the test in a controlled user study, where it is used to assess empathy in prominent health chatbots like Replika and Wysa. The results suggest that this definition captures fundamental aspects required for evaluating empathy in interactive agents, offering insights into evolving perceptions of empathy over time. Implemented in Web Ontology Language (OWL), this definition holds promise as an automated tool for systems to discern empathy in interactions, whether for self-assessment by interactive agents or for evaluating the empathic capabilities of their counterparts.",
+    "label": 0,
+    "type": 7,
+    "name": "new-045"
+}

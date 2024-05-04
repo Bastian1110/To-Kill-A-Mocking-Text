@@ -1,0 +1,6 @@
+{
+    "text": "The goal of Multimodal Emotion Recognition in Conversations (ERC) is to identify emotions expressed in conversational videos, addressing challenges in balancing intra- and inter-speaker context dependencies. To tackle these challenges, an adaptive interactive graph network (AdaIGN) called AdaIGN, utilizing the Gumbel Softmax trick for adaptive node and edge selection, is introduced. Node- and Edge-level Selection Policies (NESP) guide node and edge selection, along with a Graph-Level Selection Policy (GSP) to integrate utterance representation. A task-specific loss function prioritizes text modality and intra-speaker context selection, improving performance on popular datasets.",
+    "label": 1,
+    "type": 5,
+    "name": "bla-060"
+}

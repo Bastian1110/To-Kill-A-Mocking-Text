@@ -1,0 +1,6 @@
+{
+    "text": "In the future, autonomous vehicles will rely on the convergence of human-centric design and advanced AI capabilities to transport passengers efficiently and comfortably. This paper presents a novel framework that utilizes Large Language Models (LLMs) to enhance autonomous vehicles' decision-making processes. By integrating the natural language capabilities and contextual understanding of LLMs, along with specialized tool usage, merging reasoning, and acting with various modules on autonomous vehicles, this framework aims to seamlessly integrate the advanced language and reasoning capabilities of LLMs into autonomous vehicles. The proposed framework has the potential to revolutionize the way autonomous vehicles operate, offering personalized assistance, continuous learning, and transparent decision-making, thereby contributing to safer and more efficient autonomous driving technologies.",
+    "label": 1,
+    "type": 1,
+    "name": "fid-037"
+}

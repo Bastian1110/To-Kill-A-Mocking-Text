@@ -1,0 +1,6 @@
+{
+    "text": "From ELIZA to Alexa, Conversational Agents (CAs) have been intentionally designed to evoke or project empathy. While empathy can enhance technology's ability to meet human needs, it can also be misleading and potentially exploitative. This study focuses on characterizing empathy in interactions with CAs, emphasizing the importance of distinguishing between empathetic interactions between humans and those between a human and a CA. The study systematically prompts CAs powered by large language models (LLMs) to demonstrate empathy while engaging with or discussing 65 different human identities. It also compares how various LLMs exhibit or simulate empathy. The findings indicate that CAs tend to make value judgments regarding certain identities and may endorse identities associated with harmful ideologies such as Nazism and xenophobia. Additionally, a computational analysis of empathy reveals that while CAs can display empathy, they struggle when it comes to understanding and exploring a user's experiences, highlighting a disparity with human interactions.",
+    "label": 1,
+    "type": 5,
+    "name": "bla-044"
+}

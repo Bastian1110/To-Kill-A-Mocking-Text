@@ -1,0 +1,6 @@
+{
+    "text": "In the realm of medical imaging, segmenting tumors in breast ultrasound (US) images presents significant challenges due to image quality variability and machine specifications. This study proposes an innovative AI-driven hybrid model specifically designed for accurate and efficient US image segmentation. The model's strengths lie in its ability to achieve high accuracy with relatively small datasets and adapt to unseen data, making it suitable for diagnostic applications and US-guided biopsies. By combining deep learning (DL) techniques with multi-agent artificial life (AL) approaches, the model outperforms several benchmark algorithms on three US datasets. The study provides a comprehensive evaluation of the model's performance across different image complexities, demonstrating its effectiveness in tumor segmentation within breast US images.",
+    "label": 0,
+    "type": 7,
+    "name": "new-061"
+}

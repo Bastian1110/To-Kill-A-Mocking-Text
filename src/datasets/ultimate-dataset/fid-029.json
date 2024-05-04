@@ -1,0 +1,6 @@
+{
+    "text": "Face recognition is crucial for security and authentication purposes, with CCTV cameras commonly used in households for safety. This paper focuses on a system designed to recognize intruders' faces using machine learning (ML) and artificial intelligence (AI) algorithms. The system implements HOG (Histogram of Oriented Gradients) feature extraction and SVM (Support Vector Machine) classification algorithms to classify faces from a video stream. The primary objective is to identify individuals in the video stream, distinguishing between authorized personnel and intruders.",
+    "label": 1,
+    "type": 4,
+    "name": "fid-029"
+}

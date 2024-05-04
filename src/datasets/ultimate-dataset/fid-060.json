@@ -1,0 +1,6 @@
+{
+    "text": "Exploring the intricate world of Multimodal Emotion Recognition in Conversations (ERC), this study endeavors to decode the emotional nuances embedded in conversational videos. By introducing an adaptive interactive graph network (AdaIGN), the study aims to enhance the accuracy of emotion recognition, especially in navigating complex intra- and inter-speaker context dependencies. Leveraging advanced node and edge selection policies, AdaIGN promises to revolutionize emotion recognition methods, paving the way for more nuanced understanding of emotional expressions in multimodal interactions.",
+    "label": 1,
+    "type": 3,
+    "name": "fid-060"
+}

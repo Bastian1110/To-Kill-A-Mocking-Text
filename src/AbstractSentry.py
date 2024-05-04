@@ -105,6 +105,23 @@ class AbstractSentry:
         similarity_matrix = cosine_similarity(input_vector, vectors)[0]
         sorted_similarity_index = sorted(range(len(similarity_matrix)), key=lambda x: similarity_matrix[x], reverse=True)
         return [{"name": names[i], "similarity": similarity_matrix[i]} for i in sorted_similarity_index]
+    
+    def calculate_average_similarity(self, doc_text):
+        """
+        Calculates the cosine similarity of a new document against all stored documents and returns sorted results.
+
+        Parameters:
+        doc_text (str): The text of the document to compare.
+
+        Returns:
+        list of dict: A list of dictionaries, each containing a document name and its similarity score, sorted by similarity in descending order.
+        """
+        preprocessed_doc = self.preprocess_function(doc_text)
+        input_vector = self.vectorizer.transform([preprocessed_doc])
+        vectors, names = self._get_vecs_from_db()
+        similarity_matrix = cosine_similarity(input_vector, vectors)[0]
+        sorted_similarity_index = sorted(range(len(similarity_matrix)), key=lambda x: similarity_matrix[x], reverse=True)
+        return sum(similarity_matrix) / len(similarity_matrix)
 
     def _get_vecs_from_db(self):
         """

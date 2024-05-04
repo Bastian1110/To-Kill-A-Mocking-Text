@@ -1,0 +1,6 @@
+{
+    "text": "The operational efficiency of photovoltaic (PV) systems is intricately linked to climatic variations. To ensure optimal energy conversion under varying conditions, a sophisticated controller is indispensable. Fuzzy logic-based intelligent controllers have emerged as a viable solution in various engineering and applied science domains. This paper aims to demonstrate an experimental implementation of fuzzy logic maximum power point tracking (MPPT) with a boost converter, leveraging an Arduino Mega micro-controller, to enhance energy production in diverse weather conditions. The focus is on a small-scale pumping system utilized for water and chemical fluid analysis in remote locations. The system integrates a 20W solar PV panel, with the MPPT functionality governed by a real-time MATLAB/Simulink fuzzy logic algorithm. The control mechanism, facilitated by a low-cost Arduino Mega micro-controller and LV25, LP55 sensors, regulates the boost converter's operation in conjunction with the solar panel and plastic pump, ensuring optimal energy utilization. Through this innovative approach, the system endeavors to maximize energy output while adapting seamlessly to fluctuating environmental conditions, thereby catering to the specific needs of isolated areas.",
+    "label": 1,
+    "type": 5,
+    "name": "bla-074"
+}

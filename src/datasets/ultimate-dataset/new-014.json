@@ -1,0 +1,6 @@
+{
+    "text": "The computer vision has become an indispensable part in the fields of biomedical application and laboratory research in which images are processed and analyzed. In this article, we have presented a non-invasive real-time biomedical image processing design. The aim of the current research is to propose a hybrid design by using techniques such as watershed, Eulerian Video Magnification and morphological filters for multiple biomedical applications like detection of brain tumor, lung cancer, gallbladder stone, cataract, and measurement of pulse rate and its implementation using MATLAB. The proposed design can process different category of images and manipulate them to visualize and understand the defects clearly that is not visible to the human eyes.",
+    "label": 0,
+    "type": 7,
+    "name": "new-014"
+}
